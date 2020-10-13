@@ -106,7 +106,7 @@ img {
   border-radius: 22px;
 }
 .intro {
-  background-color: #f2f2f2;
+  background-color: #fafafa;
   padding-top: 170px;
   padding-bottom: 170px;
   background-image: url("../img/hero-bg-desktop.png");
@@ -130,8 +130,86 @@ img {
   letter-spacing: -0.28125px;
   color: #9597a5;
 }
-.intro_img{
+.intro_img {
   position: absolute;
-  top: 0;
+  top: -100px;
   right: 0;
+}
+.advantages {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  background-color: #f4f5f7;
+}
+.advantages_info {
+  margin-bottom: 72px;
+  width: 635px;
+}
+.advantages_header {
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2d314d;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.advantages_desc {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597a5;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.advantages_list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.advantages_item {
+  width: 255px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.item_header {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: #2d314d;
+}
+
+.item_desc {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #9597a5;
+}
+.advantages_item::before {
+  content: "";
+  width: 100%;
+  height: 72px;
+  display: inline-block;
+  vertical-align: baseline;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.online_item::before {
+  background-image: url("../img/online.png");
+}
+.budget_item::before {
+  background-image: url("../img/budget.png");
+}
+.fast_item::before {
+  background-image: url("../img/fast.png");
+}
+.api_item::before {
+  background-image: url("../img/api.png");
 }
