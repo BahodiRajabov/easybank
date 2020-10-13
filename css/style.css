@@ -151,7 +151,7 @@ img {
 .intro_img {
   position: absolute;
   top: -80px;
-  right: calc(50% - 760px);
+  right: calc(50% - 900px);
 }
 .advantages {
   padding-top: 95px;
