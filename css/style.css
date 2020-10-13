@@ -15,7 +15,7 @@ body {
   font-family: "Public Sans", sans-serif;
   font-size: 18px;
   background-color: #fff;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 img {
   max-width: 100%;
@@ -54,6 +54,7 @@ img {
   width: 100%;
   padding-top: 18px;
   padding-bottom: 18px;
+  z-index: 1000;
 }
 .header_container {
   display: flex;
@@ -106,6 +107,12 @@ img {
 }
 .intro {
   background-color: #f2f2f2;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background-image: url("../img/hero-bg-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  position: relative;
 }
 .intro_info {
   width: 450px;
@@ -122,4 +129,9 @@ img {
   line-height: 28px;
   letter-spacing: -0.28125px;
   color: #9597a5;
+}
+.intro_img{
+  position: absolute;
+  top: 0;
+  right: 0;
 }
